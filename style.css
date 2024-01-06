@@ -1,0 +1,92 @@
+body{
+    background-image: url('asset/space.jpg');
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    padding:30px 40px ;
+    border-radius: 25px;
+    color: #fff;
+}
+.box__logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 200px;
+}
+.box .input__box{
+    position: relative;
+    width: 100%;
+    height: 50px; 
+    margin: 30px 0px;
+}
+.input__box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input__box input::placeholder{
+    color: #fff;
+}
+.input__box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.box .box__info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.box__info a {
+    color: #fff;
+    text-decoration: none;
+}
+.box__info a:hover {
+    text-decoration: underline;
+}
+.box__info label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.box button{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #fff;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+    cursor: pointer;
+}
+.box .box__inscription{
+    text-align: center;
+}
+.box__inscription a {
+    color: #fff;
+    text-decoration: none;
+}
+.box__inscription a:hover {
+    text-decoration: underline;
+}
